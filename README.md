@@ -1,2 +1,20 @@
-# CalculatorProject
-A simple C# console calculator built as a beginner project. Supports addition, subtraction, multiplication, and division with input validation and repeated calculations. Created to practice C# fundamentals and problem-solving.
+# C# Console Calculator
+
+A simple calculator application built with C# as a learning project.
+
+## Features
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Operation validation
+- Repeat calculations without restarting the program
+
+## Concepts Practiced
+- Methods
+- Parameters
+- Arrays
+- `foreach` loops
+- `switch` statements
+- Conditional statements (`if`/`else`)
+- Console input and output
