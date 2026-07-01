@@ -10,19 +10,19 @@ class Program
     static void Subtraction(double a, double b)
     {
         Console.WriteLine($"Your result is: {a - b}");
-        
+
     }
     static void Multiplication(double a, double b)
     {
         Console.WriteLine($"Your result is: {a * b}");
-        
+
     }
     static void Division(double a, double b)
     {
         Console.WriteLine($"Your result is: {a / b}");
 
     }
-    
+
     static void Calculate()
     {
         Console.Write("Select an operation (+, -, *, /): ");
@@ -43,7 +43,7 @@ class Program
             Console.WriteLine("Invalid operation");
             return;
         }
- 
+
         Console.Write("Select number 1: ");
         double num1 = Convert.ToDouble(Console.ReadLine());
 
@@ -76,12 +76,10 @@ class Program
         Console.Write("do you want operation again? ");
         string rep = Console.ReadLine();
 
-        if( rep == "Yes" || rep == "yes")
+        while (rep == "Yes" || rep == "yes" || rep == "YES")
         {
             Calculate();
-        } else
-        {
-            return;
+            break;
         }
     }
 
